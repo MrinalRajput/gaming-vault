@@ -1,0 +1,87 @@
+.storeBox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.storeBox form {
+    margin: 2%;
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.storeBox input {
+    width: 400px;
+    height: 30px;
+    padding: 5px 15px;
+    outline: none;
+    font-family: Calibri;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.storeBox button {
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: white;
+}
+.storeBox h2 {
+    color: #cccccc;
+}
+.storeBox strike {
+    color: rgb(213, 213, 213);
+}
+.storeBox ul {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap:10px;
+    /* background-color: dodgerblue; */
+    padding: 1% 2%;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid grey; */
+    
+}
+.storeBox li {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #cccccc;
+    list-style: none;
+    margin: 10px;
+    background-color: #16191c;
+    padding:  10px;
+    width: 100%;
+    border: 2px solid grey;
+    height: 50vh;
+}
+.storeBox img {
+    width:90%;
+    height:40%;
+    margin: 20px;
+}
+.storeBox li h3 {
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+}
+ table {
+    /* background: red; */
+    /* border: 2px solid white; */
+    border-collapse: collapse;
+ }
+ table td{
+    /* border: 2px solid gray; */
+    padding: 4px 5px;
+ }
+ 
