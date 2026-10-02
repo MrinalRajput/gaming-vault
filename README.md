@@ -1,16 +1,103 @@
-# React + Vite
+# 🎮 Gaming Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern gaming store web application built with **React**, where users can explore games, discover deals, and browse games available on sale.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🎮 Browse available games
+* 💰 Explore games on sale
+* 🃏 Modern game card interface
+* 🔎 Easy game discovery
+* 📱 Responsive user interface
+* ⚡ Fast and interactive React-based experience
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React** — Frontend library
+* **JavaScript** — Application logic
+* **CSS** — Styling and responsive design
+* **Vite** — Development and build tooling
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/8c867a4a-d282-4f1e-b298-abb2bd6e6689" />
+<br>
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/gaming-vault.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd gaming-vault
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local development URL shown in your terminal.
+
+## 📁 Project Structure
+
+```text
+gaming-vault/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## 🎯 Purpose
+
+Gaming Vault was built as a React project to practice and demonstrate modern frontend development concepts such as component-based architecture, reusable UI components, state management, and responsive design.
+
+## 🔮 Future Improvements
+
+* User authentication
+* Shopping cart
+* Game details pages
+* Search and advanced filtering
+* Wishlist functionality
+* Payment integration
+* Backend API integration
+* User reviews and ratings
+
+## 📌 Project Status
+
+🚧 **In Development**
+
+Gaming Vault is an evolving project, with more features and improvements planned.
+
+## 👨‍💻 Author
+
+**Mrinal Rajput**
+
+Built with ❤️ using React.
